@@ -62,7 +62,6 @@ $include-loader: true;
 @mixin loader-text() {
   text-align: center;
   padding-top: 4rem;
-  @extend .avenir-regular;
 }
 
 @if $include-loader == true {
